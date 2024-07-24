@@ -8,6 +8,7 @@ services:
       - ./data/wiki-news-300d-1M.txt:/app/data/wiki-news-300d-1M.txt
     networks:
       - kgqan_network
+    restart: always
 
   kgqan_server:
     image: ozxx33/kgqan_server
@@ -23,6 +24,7 @@ services:
       - word_embd_server
     networks:
       - kgqan_network
+    restart: always
 
 networks:
   kgqan_network:
