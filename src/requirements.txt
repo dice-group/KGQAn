@@ -8,5 +8,5 @@ allennlp-models
 SPARQL-Burger
 chars2vec==0.1.7
 keras==2.7.0
-tensorflow==2.7.0
+tensorflow==2.11.1
 spacy
