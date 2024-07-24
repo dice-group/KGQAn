@@ -5,7 +5,7 @@ services:
     ports:
       - '9600:9600'
     volumes:
-      - ./data:/app/data
+      - ./data/wiki-news-300d-1M.txt:/app/data/wiki-news-300d-1M.txt
     networks:
       - kgqan_network
 
