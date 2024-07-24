@@ -1,3 +1,6 @@
+**Note**: This is a forked version of https://github.com/CoDS-GCS/KGQAn. This repository has been modified to fix the existing bugs and to streamline deployment.
+ - - - - -
+
  KGQAn - A Universal Question-Answering Platform for Knowledge Graphs 
  ---
  - - - - -
